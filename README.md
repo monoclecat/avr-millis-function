@@ -16,12 +16,12 @@ Complications that may arise:
 
 A problem I faced was that I got this error messsage when compiling:
 
-<code>/usr/local/CrossPack-AVR-20131216/avr/include/millis.c: In function 'millis':
-/usr/local/CrossPack-AVR-20131216/avr/include/millis.c:49:3: error: 'for' loop initial declarations are only allowed in C99 mode<br>
-   ATOMIC_BLOCK(ATOMIC_FORCEON) {<br>
-   ^<br>
-/usr/local/CrossPack-AVR-20131216/avr/include/millis.c:49:3: note: use option -std=c99 or -std=gnu99 to compile your code
-make: *** [main.o] Error 1</code>
+    /usr/local/CrossPack-AVR-20131216/avr/include/millis.c: In function 'millis':
+    /usr/local/CrossPack-AVR-20131216/avr/include/millis.c:49:3: error: 'for' loop initial declarations are only allowed in C99 mode
+    ATOMIC_BLOCK(ATOMIC_FORCEON) {
+        ^
+    /usr/local/CrossPack-AVR-20131216/avr/include/millis.c:49:3: note: use option -std=c99 or -std=gnu99 to compile your code
+    make: *** [main.o] Error 1
 
 The error is nicely explained [here](http://cboard.cprogramming.com/c-programming/162799-what-c99-mode.html) and can be fixed by 
 adding <code>-std=c99</code> or <code>-std=gnu99</code> to the command <code>avr-gcc</code> when compiling your code.
