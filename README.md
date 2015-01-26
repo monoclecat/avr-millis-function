@@ -10,7 +10,7 @@ Implementing this function is easy - take a look at the example:
 
 2) After calling <code>init_millis()</code>, call <code>sei()</code> to enable global interrupts
 
-3) Use millis() whenever you like to get the time in milliseconds since the program started
+3) Use <code>millis()</code> whenever you like to get the time in milliseconds since the program started
 
 Complications that may arise:
 
