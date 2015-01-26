@@ -9,3 +9,5 @@ Implementing this function is easy - take a look at the example:
 2) After calling init_millis(), call sei() to enable global interrupts
 
 3) Use millis() whenever you like to get the time in milliseconds since the program started
+
+For any questions write me an email at: contact@monoclecat.de
