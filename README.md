@@ -2,6 +2,8 @@
 Just like the millis() function in Arduino, this function returns 
 the time in milliseconds since the program started.
 
+This function has only been tested on the atmega328p, but may work on many other AVRs as well.
+
 Implementing this function is easy - take a look at the example:
 
 1) First you must initiate the clock with init_millis()
