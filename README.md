@@ -8,7 +8,7 @@ Implementing this function is easy - take a look at the example:
 
 1) First you must initiate the clock with <code>init_millis()</code>
 
-2) After calling <code>init_millis()</code>, call <code>sei()<c/ode> to enable global interrupts
+2) After calling <code>init_millis()</code>, call <code>sei()</code> to enable global interrupts
 
 3) Use millis() whenever you like to get the time in milliseconds since the program started
 
