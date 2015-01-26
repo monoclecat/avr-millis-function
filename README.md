@@ -18,8 +18,11 @@ A problem I faced was that I got this error messsage when compiling:
 
 <code>/usr/local/CrossPack-AVR-20131216/avr/include/millis.c: In function 'millis':
 /usr/local/CrossPack-AVR-20131216/avr/include/millis.c:49:3: error: 'for' loop initial declarations are only allowed in C99 mode
+
    ATOMIC_BLOCK(ATOMIC_FORCEON) {
+
    ^
+   
 /usr/local/CrossPack-AVR-20131216/avr/include/millis.c:49:3: note: use option -std=c99 or -std=gnu99 to compile your code
 make: *** [main.o] Error 1</code>
 
