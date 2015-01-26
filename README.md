@@ -13,7 +13,6 @@ Implementing this function is easy - take a look at the example:
 3) Use <code>millis()</code> whenever you like to get the time in milliseconds since the program started
 
 Complications that may arise:
-
 A problem I faced was that I got this error messsage when compiling:
 
     /usr/local/CrossPack-AVR-20131216/avr/include/millis.c: In function 'millis':
